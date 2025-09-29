@@ -149,16 +149,16 @@ fi
 export PYTHONPATH="${PYTHONPATH}:/home/sigurd/.local/bin"
 # export PYTHON=python3
 export ALIBUILD_WORK_DIR="$HOME/alice/sw"
-eval "`alienv shell-helper`"
+eval "$(alienv shell-helper)"
 
 export PATH=/usr/local/texlive/2022/bin/x86_64-linux${PATH:+:${PATH}}
 export INFOPATH=/usr/local/texlive/2022/texmf-dist/doc/info${INFOPATH:+:${INFOPATH}}
 export MANPATH=/usr/local/texlive/2022/texmf-dist/doc/man${MANPATH:+:${MANPATH}}
 
-export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
-export WORKON_HOME=$HOME/.virtualenvs
-export PROJECT_HOME=$HOME/workspace
-source /usr/local/bin/virtualenvwrapper.sh
+# export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
+# export WORKON_HOME=$HOME/.virtualenvs
+# export PROJECT_HOME=$HOME/workspace
+# source /usr/local/bin/virtualenvwrapper.sh
 
 export PATH="$HOME/neovim/bin:$PATH"
 export GIT_EDITOR=nvim

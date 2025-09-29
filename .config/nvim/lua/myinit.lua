@@ -6,6 +6,7 @@
 --   command = "tabdo wincmd =",
 -- })
 
+vim.g.python3_host_prog = "~/.config/nvim/.venv/bin/python"
 vim.opt.relativenumber = true
 vim.opt.clipboard = "unnamedplus"
 vim.cmd [[autocmd BufWritePre <buffer> lua vim.lsp.buf.format()]]

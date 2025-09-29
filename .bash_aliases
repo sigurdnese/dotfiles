@@ -1,4 +1,4 @@
-alias python=python3.13
+# alias python=python3.13
 alias lss='ls -lrthA'
 alias treee='tree --du -h'
 alias vim=nvim

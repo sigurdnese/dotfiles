@@ -142,6 +142,15 @@ local plugins = {
     end
   },
 
+  --magma-nvim
+  {
+    "dccsillag/magma-nvim",
+    build = ':UpdateRemotePlugins',
+    lazy = false,
+    config = function()
+      require "configs.magma-nvim"
+    end
+  },
 
   -- To make a plugin not be loaded
   -- {

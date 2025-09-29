@@ -5,8 +5,8 @@ local M = {}
 local highlights = require "highlights"
 
 M.base46 = {
-  theme = "flexoki",
-  theme_toggle = { "flexoki", "one_light" },
+  theme = "monekai",
+  theme_toggle = { "monekai", "one_light" },
 }
 
 M.ui = {
