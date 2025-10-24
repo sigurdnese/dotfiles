@@ -7,6 +7,8 @@
 -- })
 
 vim.g.python3_host_prog = "~/.config/nvim/.venv/bin/python"
+-- vim.g.python3_host_prog = "/home/sigurd/alice/sw/ubuntu2404_x86-64/Python-modules/1.0-24/bin/python"
+-- vim.cmd "runtime! plugin/rplugin.vim"
 vim.opt.relativenumber = true
 vim.opt.clipboard = "unnamedplus"
 vim.cmd [[autocmd BufWritePre <buffer> lua vim.lsp.buf.format()]]
